@@ -1,0 +1,56 @@
+.home-header {
+  background-color: #423048;
+  border-bottom: 2px solid #eba9cc;
+  padding: 16px 32px;
+}
+
+.home-header h1 {
+  color: #eba9cc;
+  font-size: 1.5rem;
+}
+
+.home-main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+
+.home-main h2 {
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.character-card {
+  background-color: #423048;
+  border: 1px solid #402f45;
+  border-radius: 12px;
+  padding: 24px;
+  transition: background-color 0.2s;
+}
+
+.character-card:hover {
+  background-color: #61446a;
+  text-decoration: none;
+}
+
+.character-card h3 {
+  color: #eba9cc;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.character-card p {
+  color: #a192a9;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
